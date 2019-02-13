@@ -1,0 +1,46 @@
+1. All Java I/O are based on data stream to do input/output.
+-> byte stream
+	->InputStream
+	->OutputStream
+		All-class:
+		->BufferedInputStream
+		->BufferedOutputStream
+		->ByteArrayInputStream
+		->ByteArrayOutputStream
+		->DataInputStream
+		->DataOutputStream
+		->FileInputStream
+		->FileOutputStream
+		->FilterInputStream
+		->FilterOutputStream
+		->InputStream
+		->OutputStream
+		->PipedInputStream
+		->PipedOutputStream
+		->PrintStream
+		->PushbackInputStream
+		->RandomAccessFile
+		->SequenceInputStream
+-> character stream (each char in java is 2 bytes)
+	->Top level abstract class
+	->Reader
+	->Writer
+		->BufferedReader
+		->BufferedWriter
+		->CharArrayReader
+		->CharArrayWriter
+		->FileReader
+		->FileWriter
+		->FilterReader
+		->FilterWriter
+		->InputStreamReader
+		->LineNumberReader
+		->OutputStreamWriter
+		->PipedReader
+		->PipedWriter
+		->PrintWriter (include print() and println() outputStream)
+		->PushbackReader
+		->Reader
+		->StringReader
+		->StringWriter
+		->Writer
